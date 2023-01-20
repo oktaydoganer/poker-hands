@@ -1,5 +1,8 @@
 package entity;
 
+/**
+ * Card interface
+ */
 public interface ICard {
 
     /**

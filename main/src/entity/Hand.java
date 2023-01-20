@@ -9,7 +9,11 @@ import java.util.List;
  * 5 cards that a player holds in a game.
  */
 @Data
-public class Hand {
-    private List<ICard> cards = new ArrayList<>(5);
+public class Hand implements IHand {
+    private List<Card> cards = new ArrayList<>(5);
     private Player player;
+
+    public Integer score() {
+        return 0;
+    }
 }
